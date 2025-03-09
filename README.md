@@ -1,6 +1,6 @@
 # Generate Git Commits
 
-A command-line tool that generates GitHub or GitLab activity graph to make it look like you have been coding incredibly irregularly and to make you look like a machine.
+A fork of artiebits/fake-git-history that was unmaintained command-line tool that generates GitHub or GitLab activity graph to make it look like you have been coding incredibly irregularly and to make you look like a machine.
 
 <img src="https://dl.dropboxusercontent.com/s/q2iinti6v0zbhzs/contributions.gif?dl=0" alt="How it works" />
 
@@ -21,12 +21,6 @@ A command-line tool that generates GitHub or GitLab activity graph to make it lo
    ```
 
 Done! Now take a look at your GitHub profile 😉
-
-## Support This Project
-
-If you rely on this tool and find it useful, please consider supporting it. Maintaining an open source project takes time and a cup of coffee would be greatly appreciated!
-
-<a href="https://www.buymeacoffee.com/artiebits" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 ## Available Flags
 
