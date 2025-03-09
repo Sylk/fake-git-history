@@ -131,7 +131,10 @@ function createCommitDateList({
       currentDate = addDays(currentDate, 1);
       continue;
     }
-    for (let i = 0; i < getRandomIntInclusive(...commitsPerDay); i++) {
+
+    let n = getRandomIntInclusive(...commitsPerDay);
+
+    for (let i = 0; i < n; i++) {
       const dateWithHours = setHours(currentDate, getRandomIntInclusive(9, 16));
       const dateWithHoursAndMinutes = setMinutes(
         dateWithHours,
